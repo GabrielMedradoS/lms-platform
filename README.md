@@ -33,13 +33,20 @@
 </div>
 
 ## 🎯 Objetivo
-
+(Learning Management System) <br>
 O objetivo é criar uma plataforma interativa de criação de cursos disponibilizado por professores
-onde os alunos poderão comprar e acessar o curso de seu interesse
+onde os alunos poderão acessar o curso de seu interesse e aprender diretamente do site com video aulas disponibilizados pelo professor criador do curso e seus administradores.
+A ideia é facilitar o aprendizado à distância criando um software robusto e de facil acesso/aprendizado, com uma metodologia facil e diversos cursos de treinamento tanto para o professor quanto para o aluno
 
 ## ✨ Features
 
-- [] Layout de uma LMS Plataform
+- [x] criação de cursos imediata
+- [x] criação de diversos cursos 
+- [x] autenticação de usuarios
+- [x] plataforma interativa
+- [x] responsividade
+- [x] formulários direto na plataforma
+  
 
 ## 💻 Demonstração:
 
