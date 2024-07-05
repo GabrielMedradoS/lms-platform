@@ -20,7 +20,7 @@ jobs:
         run: echo Deploy Dev
 
   deploy-hml:
-      runs-on: ubuntu-lastest
+      runs-on: ubuntu-latest
       environment:
         name: hml
         url: ''
