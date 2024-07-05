@@ -12,7 +12,7 @@ jobs:
   deploy-dev:
       runs-on: ubuntu-latest
       environment:
-        name: dev
+        name: lms-plataform-dev
         url: ''
       needs: build
       steps:
@@ -22,7 +22,7 @@ jobs:
   deploy-hml:
       runs-on: ubuntu-latest
       environment:
-        name: hml
+        name: lms-plataform-hml
         url: ''
       needs: deploy-dev
       steps:
