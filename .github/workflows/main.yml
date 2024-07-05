@@ -1,0 +1,30 @@
+name: lms-platform-workflow
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a online script
+        run: echo Initializing
+
+  deploy-dev:
+      runs-on: ubuntu-latest
+      environment:
+        name: dev
+        url: ''
+      needs: build
+      steps:
+      - name: Run a online script
+        run: echo Deploy Dev
+
+  deploy-hml:
+      runs-on: ubuntu-lastest
+      environment:
+        name: hml
+        url: ''
+      needs: deploy-dev
+      steps:
+      - name: Run a online script
+        run: echo Deploy Hml
