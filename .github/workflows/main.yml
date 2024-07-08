@@ -1,13 +1,27 @@
 name: lms-platform-workflow
 on:
-  workflow_dispatch:
+  pull_request:
+    types: [opened, edited, reopened, synchronized]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Run a online script
+      - uses: actions/checkout@v4
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - name: Start Message
         run: echo Initializing
+        
+      - name: Install dependencies
+        run: pnpm install 
 
   deploy-dev:
       runs-on: ubuntu-latest
