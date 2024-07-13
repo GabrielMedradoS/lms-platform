@@ -33,20 +33,21 @@
 </div>
 
 ## 🎯 Objetivo
+
 (Learning Management System) <br>
 O objetivo é criar uma plataforma interativa de criação de cursos disponibilizado por professores
 onde os alunos poderão acessar o curso de seu interesse e aprender diretamente do site com video aulas disponibilizados pelo professor criador do curso e seus administradores.
-A ideia é facilitar o aprendizado à distância criando um software robusto e de facil acesso/aprendizado, com uma metodologia facil e diversos cursos de treinamento tanto para o professor quanto para o aluno
+A ideia é facilitar o aprendizado à distância criando um software robusto e de fácil acesso/aprendizado, com uma metodologia didática e diversos cursos de treinamento tanto para o professor quanto para o aluno
 
 ## ✨ Features
 
 - [x] criação de cursos imediata
-- [x] criação de diversos cursos 
-- [x] autenticação de usuarios
+- [x] criação de diversos cursos
+- [x] autenticação de usuários
 - [x] plataforma interativa
 - [x] responsividade
 - [x] formulários direto na plataforma
-  
+- [x] uso do UploadThing permite uma customização maior em uploads
 
 ## 💻 Demonstração:
 
@@ -89,6 +90,8 @@ NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 DATABASE_URL="Seu banco de dados"
+UPLOADTHING_SECRET= "UploadThing SECRET"
+UPLOADTHING_APP_ID= "UploadThing ID"
 ```
 
 Execute o projeto:
@@ -136,9 +139,11 @@ O servidor estará disponível em http://localhost:3000.
   "dependencies": {
     "@clerk/nextjs": "^4.29.7",
     "@hookform/resolvers": "^3.6.0",
+    "@prisma/client": "^5.16.1",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-slot": "^1.0.2",
+    "@uploadthing/react": "^6.7.2",
     "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -150,6 +155,7 @@ O servidor estará disponível em http://localhost:3000.
     "react-hot-toast": "^2.4.1",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7",
+    "uploadthing": "^6.13.2",
     "zod": "^3.23.8"
   },
   "devDependencies": {
@@ -174,6 +180,7 @@ O servidor estará disponível em http://localhost:3000.
 - [React Hot Toast](https://react-hot-toast.com/)
 - [React Hook Form](https://www.npmjs.com/package/react-hook-form)
 - [Axios | documentation](https://axios-http.com/ptbr/docs/intro)
+- [UploadThing](https://uploadthing.com/)
 
 ## 💡 Como contribuir
 
