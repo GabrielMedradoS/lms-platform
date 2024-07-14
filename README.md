@@ -47,7 +47,7 @@ A ideia é facilitar o aprendizado à distância criando um software robusto e d
 - [x] plataforma interativa
 - [x] responsividade
 - [x] formulários direto na plataforma
-- [x] uso do UploadThing permite uma customização maior em uploads
+- [x] uso do UploadThing permite uma customização maior em uploads de videos, imagens e arquivos
 
 ## 💻 Demonstração:
 
