@@ -109,6 +109,7 @@ npm run dev
 O servidor estará disponível em http://localhost:3000.
 
 ## 🛠 Tecnologias
+
 ![My Skills](https://skillicons.dev/icons?i=ts,react,nodejs,tailwind)
 
 ## 📜 Documentação
@@ -131,15 +132,18 @@ O servidor estará disponível em http://localhost:3000.
   },
   "dependencies": {
     "@clerk/nextjs": "^4.29.7",
+    "@hello-pangea/dnd": "^16.6.0",
     "@hookform/resolvers": "^3.6.0",
     "@prisma/client": "^5.16.1",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-popover": "^1.1.1",
     "@radix-ui/react-slot": "^1.0.2",
     "@uploadthing/react": "^6.7.2",
     "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "cmdk": "^1.0.0",
     "lucide-react": "^0.307.0",
     "next": "14.0.4",
     "react": "^18",
@@ -174,6 +178,7 @@ O servidor estará disponível em http://localhost:3000.
 - [React Hook Form](https://www.npmjs.com/package/react-hook-form)
 - [Axios | documentation](https://axios-http.com/ptbr/docs/intro)
 - [UploadThing](https://uploadthing.com/)
+- [Hello-pangea | drag-and-drop](https://github.com/hello-pangea/dnd/blob/main/docs/about/installation.md)
 
 ## 💡 Como contribuir
 
