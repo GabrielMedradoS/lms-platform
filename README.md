@@ -179,6 +179,7 @@ O servidor estará disponível em http://localhost:3000.
 - [Axios | documentation](https://axios-http.com/ptbr/docs/intro)
 - [UploadThing](https://uploadthing.com/)
 - [Hello-pangea | drag-and-drop](https://github.com/hello-pangea/dnd/blob/main/docs/about/installation.md)
+- [React Quill | Github](https://github.com/zenoamaro/react-quill)
 
 ## 💡 Como contribuir
 
