@@ -42,7 +42,7 @@ export const ChapterVideoForm = ({
       toggleEdit();
       router.refresh();
     } catch (error) {
-      toast.error("Something went wrong changing the description course");
+      toast.error("Something went wrong changing the video course");
     }
   };
 
