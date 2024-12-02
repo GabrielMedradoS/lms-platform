@@ -134,7 +134,11 @@ O servidor estará disponível em http://localhost:3000.
     "@clerk/nextjs": "^4.29.7",
     "@hello-pangea/dnd": "^16.6.0",
     "@hookform/resolvers": "^3.6.0",
+    "@mux/mux-node": "^8.8.0",
+    "@mux/mux-player-react": "^3.1.0",
     "@prisma/client": "^5.16.1",
+    "@radix-ui/react-alert-dialog": "^1.1.2",
+    "@radix-ui/react-checkbox": "^1.1.1",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-popover": "^1.1.1",
@@ -147,13 +151,16 @@ O servidor estará disponível em http://localhost:3000.
     "lucide-react": "^0.307.0",
     "next": "14.0.4",
     "react": "^18",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18",
     "react-hook-form": "^7.52.0",
     "react-hot-toast": "^2.4.1",
+    "react-quill": "^2.0.0",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7",
     "uploadthing": "^6.13.2",
-    "zod": "^3.23.8"
+    "zod": "^3.23.8",
+    "zustand": "^5.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -178,6 +185,8 @@ O servidor estará disponível em http://localhost:3000.
 - [React Hook Form](https://www.npmjs.com/package/react-hook-form)
 - [Axios | documentation](https://axios-http.com/ptbr/docs/intro)
 - [UploadThing](https://uploadthing.com/)
+- [Zustand](https://zustand.docs.pmnd.rs/)
+- [React-confetti](https://www.npmjs.com/package/react-confetti)
 - [Hello-pangea | drag-and-drop](https://github.com/hello-pangea/dnd/blob/main/docs/about/installation.md)
 - [React Quill | Github](https://github.com/zenoamaro/react-quill)
 
