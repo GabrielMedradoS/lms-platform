@@ -140,9 +140,11 @@ O servidor estará disponível em http://localhost:3000.
     "@radix-ui/react-alert-dialog": "^1.1.2",
     "@radix-ui/react-checkbox": "^1.1.1",
     "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-dropdown-menu": "^2.1.3",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-popover": "^1.1.1",
     "@radix-ui/react-slot": "^1.0.2",
+    "@tanstack/react-table": "^8.20.6",
     "@uploadthing/react": "^6.7.2",
     "axios": "^1.7.2",
     "class-variance-authority": "^0.7.0",
@@ -150,11 +152,13 @@ O servidor estará disponível em http://localhost:3000.
     "cmdk": "^1.0.0",
     "lucide-react": "^0.307.0",
     "next": "14.0.4",
+    "query-string": "^9.1.1",
     "react": "^18",
     "react-confetti": "^6.1.0",
     "react-dom": "^18",
     "react-hook-form": "^7.52.0",
     "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.4.0",
     "react-quill": "^2.0.0",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7",
@@ -189,6 +193,8 @@ O servidor estará disponível em http://localhost:3000.
 - [React-confetti](https://www.npmjs.com/package/react-confetti)
 - [Hello-pangea | drag-and-drop](https://github.com/hello-pangea/dnd/blob/main/docs/about/installation.md)
 - [React Quill | Github](https://github.com/zenoamaro/react-quill)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [query-string](https://www.npmjs.com/package/query-string)
 
 ## 💡 Como contribuir
 
