@@ -18,3 +18,4 @@ export const CourseEnrollButton = ({
     </Button>
   );
 };
+
