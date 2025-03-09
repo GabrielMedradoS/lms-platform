@@ -42,12 +42,15 @@ A ideia é facilitar o aprendizado à distância criando um software robusto e d
 ## ✨ Features
 
 - [x] criação de cursos imediata
-- [x] criação de diversos cursos
+- [x] criação de diversos cursos com capítulos
+- [x] Interação do aluno através de um caminho para completar o curso
 - [x] autenticação de usuários
 - [x] plataforma interativa
 - [x] responsividade
 - [x] formulários direto na plataforma
 - [x] uso do UploadThing permite uma customização maior em uploads de videos, imagens e arquivos
+- [x] Controle de viewers e Integração de vídeos usando MUX
+- [x] Integração com API de pagamentos Stripe
 
 ## 💻 Demonstração:
 
@@ -202,6 +205,8 @@ O servidor estará disponível em http://localhost:3000.
 - [React Quill | Github](https://github.com/zenoamaro/react-quill)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [query-string](https://www.npmjs.com/package/query-string)
+- [MUX](https://dashboard.mux.com/login)
+- [Stripe](https://stripe.com/br)
 
 ## 💡 Como contribuir
 
