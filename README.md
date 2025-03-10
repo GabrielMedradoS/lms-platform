@@ -34,10 +34,12 @@
 
 ## 🎯 Objetivo
 
-(Learning Management System) <br>
-O objetivo é criar uma plataforma interativa de criação de cursos disponibilizado por professores
-onde os alunos poderão acessar o curso de seu interesse e aprender diretamente do site com video aulas disponibilizados pelo professor criador do curso e seus administradores.
-A ideia é facilitar o aprendizado à distância criando um software robusto e de fácil acesso/aprendizado, com uma metodologia didática e diversos cursos de treinamento tanto para o professor quanto para o aluno
+<div align="justify">
+    (Learning Management System) <br>
+    O objetivo é criar uma plataforma interativa de criação de cursos disponibilizado por professores
+    onde os alunos poderão acessar o curso de seu interesse e aprender diretamente do site com video aulas disponibilizados pelo professor criador do curso e seus administradores.
+    A ideia é facilitar o aprendizado à distância criando um software robusto e de fácil acesso/aprendizado, com uma metodologia didática e diversos cursos de treinamento tanto para o professor quanto para o aluno
+</div>
 
 ## ✨ Features
 
