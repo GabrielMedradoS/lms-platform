@@ -153,6 +153,7 @@ O servidor estará disponível em http://localhost:3000.
     "@radix-ui/react-dropdown-menu": "^2.1.3",
     "@radix-ui/react-label": "^2.1.0",
     "@radix-ui/react-popover": "^1.1.1",
+    "@radix-ui/react-progress": "^1.1.2",
     "@radix-ui/react-separator": "^1.1.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@tanstack/react-table": "^8.20.6",
@@ -171,6 +172,7 @@ O servidor estará disponível em http://localhost:3000.
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.4.0",
     "react-quill": "^2.0.0",
+    "recharts": "^2.15.1",
     "stripe": "^17.7.0",
     "tailwind-merge": "^2.2.0",
     "tailwindcss-animate": "^1.0.7",
@@ -196,6 +198,7 @@ O servidor estará disponível em http://localhost:3000.
 </details>
 
 - [Next.js 13 | documentation](https://nextjs.org/docs)
+- [shadcn/ui | documentation](https://ui.shadcn.com/)
 - [Tailwind | documentation](https://tailwindcss.com/docs/installation/using-postcss)
 - [React Hot Toast](https://react-hot-toast.com/)
 - [React Hook Form](https://www.npmjs.com/package/react-hook-form)
@@ -209,6 +212,7 @@ O servidor estará disponível em http://localhost:3000.
 - [query-string](https://www.npmjs.com/package/query-string)
 - [MUX](https://dashboard.mux.com/login)
 - [Stripe](https://stripe.com/br)
+- [Recharts](https://www.npmjs.com/package/recharts)
 
 ## 💡 Como contribuir
 
